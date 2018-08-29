@@ -1,13 +1,18 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "schemator-website",
+  "description": "Official website of Schemator",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Gattigaga Hayyuta Dewa",
   "dependencies": {
     "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-react-helmet": "^2.0.11",
-    "react-helmet": "^5.2.0"
+    "gatsby-plugin-react-next": "^1.0.11",
+    "gatsby-plugin-styled-components": "^2.0.11",
+    "gsap": "^2.0.2",
+    "react-helmet": "^5.2.0",
+    "styled-components": "^3.4.5",
+    "typeface-roboto": "^0.0.54"
   },
   "keywords": [
     "gatsby"
@@ -17,9 +22,26 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watch"
   },
   "devDependencies": {
+    "enzyme": "^3.5.0",
+    "enzyme-adapter-react-16": "^1.3.0",
+    "enzyme-to-json": "^3.3.4",
+    "eslint": "^5.4.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard-react": "^7.0.2",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "gatsby-plugin-eslint": "^1.0.3",
+    "jest": "^23.5.0",
+    "jest-styled-components": "^6.1.1",
     "prettier": "^1.13.7"
   },
   "repository": {
